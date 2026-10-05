@@ -1,0 +1,14 @@
+sources:
+  - name: airbnb
+    database: racko-master-project-505113
+    schema: airbnb_raw
+
+    tables:
+      - name: hosts
+        identifier: raw_hosts
+
+      - name: listings
+        identifier: raw_listings
+
+      - name: reviews
+        identifier: raw_reviews
